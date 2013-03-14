@@ -38,6 +38,6 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="cm-10.1" />
 
   <!-- Custom recovery addons -->
-  <project path="external/bootmenu" name="SunRain/android_external_bootmenu" remote="gh" revision="jellybean" />
+  <project path="external/bootmenu" name="alteredlikeness/android_external_bootmenu" remote="gh" revision="jellybean" />
 
 </manifest>
