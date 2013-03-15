@@ -17,7 +17,7 @@
   <project path="frameworks/av" name="STS-Dev-Team/android_frameworks_av" remote="gh" revision="cm-10.1" />
   
   <!-- Local devices -->
-  <project path="device/motorola/edison" name="alteredlikeness/android_device_motorola_edison" remote="gh" revision="master" />
+  <project path="device/motorola/edison" name="alteredlikeness/android_device_motorola_edison" remote="gh" revision="jellybean" />
   <project path="device/motorola/omap4-common" name="STS-Dev-Team/android_device_motorola_common" remote="gh" revision="jb-mr1" />
  
   <!-- Local vendor -->
