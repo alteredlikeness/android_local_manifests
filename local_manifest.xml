@@ -22,7 +22,7 @@
  
   <!-- Local vendor -->
   <project path="vendor/motorola/omap4-common" name="STS-Dev-Team/android_vendor_motorola_common" remote="gh" revision="jb-mr1" />
-  <project path="vendor/motorola/edison" name="STS-Dev-Team/android_vendor_motorola_edison" remote="gh" revision="master" />
+  <project path="vendor/motorola/edison" name="alteredlikeness/android_vendor_motorola_edison" remote="gh" revision="master" />
   
   <!-- TI addons/replacements (CM tracks TI now also)-->
   <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="p-jb-mr1-release" />
