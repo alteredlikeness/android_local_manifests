@@ -4,40 +4,14 @@
   <remote  name="gh"
            fetch="git://github.com/" />
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/" />
+  <!-- Local devices -->
+  <project path="device/motorola/edison" name="STS-Dev-Team/android_device_motorola_edison" remote="gh" revision="cm-10.1-dev" />
+  <project path="device/motorola/omap4-common" name="CyanogenMod/android_device_motorola_omap4-common" remote="gh" revision="cm-10.1" />
 
-  <!-- AOSPA removals -->
-  <remove-project name="platform/hardware/ti/omap4xxx" />
-  <remove-project name="platform/hardware/ti/wlan" />
-  <remove-project name="platform/hardware/ti/wpan" />
-  <remove-project name="platform/packages/apps/VoiceDialer" />  
-  <remove-project name="platform/system/netd" />  
-
-  <!-- AOSPA replacements -->
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="gh" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="cm-10.1" />
-  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="gh" revision="cm-10.1" />  
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="gh" revision="cm-10.1" />  
-  
-  <!-- Local device -->
-  <project path="device/motorola/edison" name="alteredlikeness/android_device_motorola_edison" remote="gh" revision="jb-kexec-wip" />
-  <project path="device/motorola/omap4-kexec-common" name="STS-Dev-Team/android_device_motorola_omap4-kexec-common" remote="gh" revision="cm-10.1-dev" />
- 
   <!-- Local vendor -->
-  <project path="vendor/motorola/omap4-common" name="STS-Dev-Team/android_vendor_motorola_common" remote="gh" revision="jb-mr1" />
-  <project path="vendor/motorola/edison" name="alteredlikeness/android_vendor_motorola_edison" remote="gh" revision="master" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-10.1" />
 
   <!-- Kexec kernel -->
-  <project path="kernel/motorola/omap4-kexec-common" name="STS-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="jb-mr1" />
-
-  <!-- TI addons -->
-  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />  
-
-  <!-- CM addons -->
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="gh" revision="cm-10.1" />
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="gh" revision="cm-10.1" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="cm-10.1" />
+  <project path="kernel/motorola/omap4-common" name="STS-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="edison" />
 
 </manifest>
