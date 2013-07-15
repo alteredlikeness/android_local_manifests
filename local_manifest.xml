@@ -5,13 +5,13 @@
            fetch="git://github.com/" />
 
   <!-- Local devices -->
-  <project path="device/motorola/edison" name="alteredlikeness/android_device_motorola_edison" remote="gh" revision="cm-10.1-dev" />
-  <project path="device/motorola/omap4-common" name="CyanogenMod/android_device_motorola_omap4-common" remote="gh" revision="cm-10.1" />
+  <project path="device/motorola/edison" name="alteredlikeness/android_device_motorola_edison" remote="gh" revision="jb-edison" />
+  <project path="device/motorola/omap4-common" name="alteredlikeness/android_device_motorola_omap4-common" remote="gh" revision="jb-edison" />
 
   <!-- Local vendor -->
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-10.1" />
+  <project path="vendor/motorola" name="alteredlikeness/proprietary_vendor_motorola" remote="gh" revision="jb-edison" />
 
   <!-- Kexec kernel -->
-  <project path="kernel/motorola/omap4-common" name="STS-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="edison" />
+  <project path="kernel/motorola/omap4-common" name="Atrix2-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="cm-10.1" />
 
 </manifest>
