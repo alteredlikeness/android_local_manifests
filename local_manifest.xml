@@ -4,14 +4,16 @@
   <remote  name="gh"
            fetch="git://github.com/" />
 
-  <!-- Local devices -->
-  <project path="device/motorola/edison" name="alteredlikeness/android_device_motorola_edison" remote="gh" revision="jb-edison" />
-  <project path="device/motorola/omap4-common" name="alteredlikeness/android_device_motorola_omap4-common" remote="gh" revision="jb-edison" />
+  <!-- DEVICE -->
+  <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="gh" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_motorola_spyder" path="device/motorola/spyder" remote="gh" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="gh" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="gh" revision="cm-10.1" />
 
-  <!-- Local vendor -->
-  <project path="vendor/motorola" name="alteredlikeness/proprietary_vendor_motorola" remote="gh" revision="jb-edison" />
+  <!-- VENDOR -->
+  <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-10.1" />
 
-  <!-- Kexec kernel -->
-  <project path="kernel/motorola/omap4-common" name="Atrix2-Dev-Team/kernel_mapphone_kexec" remote="gh" revision="cm-10.1" />
+  <!-- KERNEL -->
+  <project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="gh" revision="cm-10.1" /> 
 
 </manifest>
