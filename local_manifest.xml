@@ -31,7 +31,7 @@
   <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="cm-10.1" />
-  <project name="alteredlikeness/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aosp" />
+  <project name="alteredlikeness/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aospa" />
 
   <!-- VENDOR -->
   <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.1" />
