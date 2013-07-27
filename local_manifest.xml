@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- REMOVES -->
+  <remove-project name="ParanoidAndroid/android_build" />
   <remove-project name="ParanoidAndroid/android_frameworks_base" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/hardware/ti/wlan" />
@@ -13,6 +14,9 @@
   <remove-project name="platform/system/vold" />
 
   <!-- REPLACEMENTS -->
+  <project name="alteredlikeness/pa_android_build" path="build" remote="github" revision="alt-dev" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project name="alteredlikeness/pa_android_frameworks_base" path="frameworks/base" remote="github" revision="alt-dev" />
   <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.1" />
