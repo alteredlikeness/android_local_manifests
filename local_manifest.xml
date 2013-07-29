@@ -7,9 +7,9 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/hardware/ti/wpan" />
+  <remove-project name="ParanoidAndroid/android_packages_apps_Settings" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
   <remove-project name="ParanoidAndroid/android_system_core" />
-  <remove-project name="ParanoidAndroid/android_system_extras" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/vold" />
 
@@ -21,9 +21,9 @@
   <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-10.1" />
+  <project name="alteredlikeness/pa_android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="alt-dev" />
   <project name="CyanogenMod/android_packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" remote="github" revision="cm-10.1" />
   <project name="alteredlikeness/pa_android_system_core" path="system/core" remote="github" revision="alt-dev" />
-  <project name="CyanogenMod/android_system_extras" path="system/extras" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="cm-10.1" />
 
