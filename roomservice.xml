@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="platform/packages/apps/VoiceDialer" />
+  <remove-project name="platform/hardware/ti/wpan" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <remove-project name="platform/hardware/ti/omap4xxx" />
+  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="github" revision="cm-10.2" />
+  <project name="ParanoidAndroid/HALO" path="packages/apps/HALO" remote="github" revision="jellybean" />
+  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_htop" path="external/htop" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_lsof" path="external/lsof" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_lzo" path="external/lzo" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_nano" path="external/nano" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_openvpn" path="external/openvpn" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_powertop" path="external/powertop" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_vim" path="external/vim" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-10.2" />
+</manifest>

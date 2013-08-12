@@ -1,0 +1,21 @@
+system/core
+git revert 78dfb9a053e0afa1d70f4e57205feeb072ccc0b8
+
+build
+git revert 22cde701c45b4a4db2eb2d7e10954bf165454aa2
+
+vendor/pa
+git revert 801ff4ad83b5d10c1bbadcb21ffba049e257dbaf
+
+
+Fix:
+/pacakges/inputmethods/LatinIME/native/jni/Android.mk: remove -Werror flag
+
+/device/motorola/omap4-common: device.te & file_contexts pvrsrvkm
+
+/build change gcc arm version
+
+add paprefs perms to device omap4-common releasetools
+
+use cm's dalvik repo
+
