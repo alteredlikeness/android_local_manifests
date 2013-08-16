@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- REMOVALS -->
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="SlimRoms/hardware_ti_wpan" />
+  <remove-project name="SlimRoms/hardware_ti_wlan" />
+  <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
+
+  <!-- REPLACEMENTS -->
+  <project name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.2" />
 
   <!-- DEVICE -->
   <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-10.2" />
@@ -10,5 +23,9 @@
   
   <!-- KERNEL -->
   <project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-10.2" />
+
+  <!-- CM ADDS -->
+  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-10.2" />
   
 </manifest>
