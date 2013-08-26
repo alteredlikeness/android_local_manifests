@@ -10,10 +10,10 @@
   <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-10.2" />
 
   <!-- DEVICE -->
-  <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="cm-10.2" />
+  <project name="A2-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="Slim4.3" />
+  <project name="A2-Dev-Team/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aosp4.3" />
+  <project name="alteredlikeness/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="Slim4.3" />
+  <project name="alteredlikeness/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="Slim4.3" />
 
   <!-- VENDOR -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" />
