@@ -3,17 +3,16 @@
   <!-- REMOVALS -->
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/common" />
-  <remove-project name="platform/external/dbus" />
   <remove-project name="SlimRoms/hardware_ti_wpan" />
   <remove-project name="SlimRoms/hardware_ti_wlan" />
   <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
 
   <!-- REPLACEMENTS -->
-  <project name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
 
   <!-- DEVICE -->
   <project name="Atrix2-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="Slim4.3" />
@@ -25,6 +24,6 @@
   <project name="Atrix2-Dev-Team/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2-a" />
 
   <!-- CM ADDS -->
-  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
   
 </manifest>
