@@ -24,6 +24,6 @@
   <project name="Atrix2-Dev-Team/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2-a" />
 
   <!-- CM ADDS -->
-  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.2" />
   
 </manifest>
