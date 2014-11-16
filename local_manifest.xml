@@ -13,7 +13,7 @@
 
 <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-12.0" />
 
-<project name="alteredlikeness/android_hardware_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.0" />
+<project name="alteredlikeness/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.0" />
 <project name="alteredlikeness/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-12.0" />
 <project name="alteredlikeness/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-12.0" />
 <project name="alteredlikeness/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-12.0" />
