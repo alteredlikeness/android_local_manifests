@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remove-project name="CyanogenMod/android_frameworks_base" />
+<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+<remove-project name="CyanogenMod/android_hardware_ti_wlan" />
 
-<project name="MO4/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
-<project name="alteredlikeness/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-12.0" />
-<project name="MO4/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
-<project name="MO4/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
-<project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
-<!-- **NOTE** also need subfolder: <project name="CyanogenMod/android_system_core_lbnl_2" path="system/core/libnl_2" remote="github" revision="cm-11.0" /> -->
+<project name="MO4/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-12.0" />
+<project name="MO4/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-12.0" />
+<project name="MO4/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-12.0" />
+<project name="MO4/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.0" />
+
+<project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-12.0" />
+
+<project name="alteredlikeness/android_hardware_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.0" />
+<project name="alteredlikeness/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-12.0" />
+<project name="alteredlikeness/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-12.0" />
+<project name="alteredlikeness/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-12.0" />
 
 </manifest>
