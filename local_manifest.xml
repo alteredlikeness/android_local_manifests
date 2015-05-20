@@ -1,55 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- REMOVES -->
-  <remove-project name="ParanoidAndroid/android_build" />
-  <remove-project name="ParanoidAndroid/android_frameworks_base" />
-  <remove-project name="platform/hardware/ti/omap4xxx" />
-  <remove-project name="platform/hardware/ti/wlan" />
-  <remove-project name="platform/hardware/ti/wpan" />
-  <remove-project name="platform/packages/apps/VoiceDialer" />
-  <remove-project name="ParanoidAndroid/android_system_core" />
-  <remove-project name="ParanoidAndroid/android_system_extras" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/vold" />
+<!-- DEVICE -->
+<!-- <project name="CyanogenMod/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_device_motorola_targa" path="device/motorola/targa" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_device_motorola_maserati" path="device/motorola/maserati" remote="github" revision="cm-12.1" /> -->
+<project name="CyanogenMod/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="cm-12.1" />
 
-  <!-- REPLACEMENTS -->
-  <project name="alteredlikeness/pa_android_build" path="build" remote="github" revision="alt-dev" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project name="alteredlikeness/pa_android_frameworks_base" path="frameworks/base" remote="github" revision="alt-dev" />
-  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" remote="github" revision="cm-10.1" />
-  <project name="alteredlikeness/pa_android_system_core" path="system/core" remote="github" revision="alt-dev" />
-  <project name="CyanogenMod/android_system_extras" path="system/extras" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="cm-10.1" />
+<!-- VENDOR -->
+<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
 
-  <!-- DEVICE -->
-  <project name="STS-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="cm-10.1" />
-  <project name="alteredlikeness/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aospa" />
+<!-- KERNEL -->
+<project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-12.1" />
 
-  <!-- VENDOR -->
-  <project name="Motorola-OMAP4-CM/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.1" />
+<!-- EXTRAS -->
+<remove-project name="platform/hardware/ti/omap4xxx" />
+<project name="CyanogenMod/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-12.0" />
 
-  <!-- KERNEL -->
-  <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="github" revision="cm-10.1" />
-
-  <!-- OTHER -->
-  <project name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-10.1" />
-
-  <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
-
-  <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-10.1" />
-  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-
-  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="github" revision="cm-10.1" />
-
-  <project name="ParanoidAndroid/HALO" path="packages/apps/HALO" remote="github" revision="jellybean" />
-  
 </manifest>
